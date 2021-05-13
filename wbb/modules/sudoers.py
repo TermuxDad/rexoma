@@ -36,7 +36,7 @@ from wbb.utils import formatter
 from wbb.utils.dbfunctions import (add_gban_user, get_served_chats,
                                    is_gbanned_user, remove_gban_user)
 
-__MODULE__ = "Sudoers"
+__MODULE__ = "Gban"
 __HELP__ = """
 /stats - To Check System Status.
 /gstats - To Check Bot's Global Stats.

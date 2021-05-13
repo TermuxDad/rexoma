@@ -79,49 +79,53 @@ async def help_command(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Help ❓",
+                        text="Help",
                         url=f"t.me/{BOT_USERNAME}?start=help",
                     ),
                     InlineKeyboardButton(
-                        text="Repo 🛠",
-                        url="https://github.com/thehamkercat/WilliamButcherBot",
+                        text="Group",
+                        url="https://t.me/RexomaChat",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        text="System Stats 💻", callback_data="stats_callback"
+                        text="Channel", url="t.me/RexomaNews"
                     ),
-                    InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+                    InlineKeyboardButton(text="Project", url="t.me/RobotProject"),
                 ],
             ]
         )
-        await message.reply("Pm Me For More Details.", reply_markup=keyboard)
+        await message.reply("Contact Me In Pm For More Details.", reply_markup=keyboard)
         return
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="Commands ❓", callback_data="bot_commands"),
                 InlineKeyboardButton(
-                    text="Repo 🛠",
-                    url="https://github.com/thehamkercat/WilliamButcherBot",
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="System Stats 🖥", callback_data="stats_callback"
-                ),
-                InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="Add Me To Your Group 🎉",
+                    text="Summon Me",
                     url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
+            ],
+            [
+                InlineKeyboardButton(
+                    text="Group", url="t.me/RexomaChat"),
+                ),
+                InlineKeyboardButton(text="Channel", url="RexomaNews"),
+            ],                         
+            [
+                InlineKeyboardButton(
+                    text="Bot Stats", callback_data="stats_callback"
+                ),
+                InlineKeyboardButton(text="Owner", url="t.me/RobotProject"),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="Help & Commands",
+                    callback_data="bot_comnands"),
                 )
             ],
         ]
     )
     await message.reply(
-        f"Hey there! My name is {BOT_NAME}. I can manage your group with lots of useful features, feel free to add me to your group.",
+        f"Hey! {first_name} My name is {BOT_NAME}. i am a group management bot build by weebs for weebs. i specialize in managing groups. You can find my list of available commands.",
         reply_markup=keyboard,
     )
 
@@ -135,9 +139,7 @@ I'm a group management bot with some usefule features.
 You can choose an option below, by clicking a button.
 Also you can ask anything in Support Group.
 
-General command are:
- - /start: Start the bot
- - /help: Give this message""".format(
+° Join: @ReXoMaChaT""".format(
             first_name=name,
             bot_name=BOT_NAME,
         ),
@@ -174,9 +176,7 @@ I'm a group management bot with some usefule features.
 You can choose an option below, by clicking a button.
 Also you can ask anything in Support Group.
 
-General command are:
- - /start: Start the bot
- - /help: Give this message
+ ° Join: @ReXoMaChaT
  """
     if mod_match:
         module = mod_match.group(1)

@@ -13,7 +13,7 @@ Credits:
     This module belongs to https://github.com/AbirHasan2005/TG-String-Session/blob/main/genStr.py
 """
 
-__MODULE__ = "GenStr"
+__MODULE__ = "String"
 __HELP__ = """
 This Module Can Be Used To Generate Session String For A Userbot.
 Send **/genstr** Command To The Bot In Private And Follow Instructions."""

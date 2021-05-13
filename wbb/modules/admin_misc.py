@@ -29,11 +29,11 @@ from wbb import SUDOERS, app
 from wbb.core.decorators.errors import capture_err
 from wbb.modules.admin import member_permissions
 
-__MODULE__ = "Admin Miscs"
+__MODULE__ = "Group"
 __HELP__ = """
-/set_chat_title - Change The Name Of A Group/Channel.
-/set_chat_photo - Change The PFP Of A Group/Channel.
-/set_user_title - Change The Administrator Title Of An Admin.
+/set_chat_title - Change The Group/Channel Name.
+/set_chat_photo - Change The Group/Channel Profile.
+/set_user_title - Change The Administrator Title.
 """
 
 

@@ -103,20 +103,22 @@ async def help_command(_, message):
                 InlineKeyboardButton(
                     text="Summon Me",
                     url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
-                ),
             ],
+                    
             [
                 InlineKeyboardButton(
                     text="Group", url="t.me/RexomaChat"),
                 ),
                 InlineKeyboardButton(text="Channel", url="RexomaNews"),
-            ],                         
+            ], 
+                    
             [
                 InlineKeyboardButton(
                     text="Bot Stats", callback_data="stats_callback"
                 ),
                 InlineKeyboardButton(text="Owner", url="t.me/RobotProject"),
             ],
+                    
             [
                 InlineKeyboardButton(
                     text="Help & Commands",

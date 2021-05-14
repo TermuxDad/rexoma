@@ -100,29 +100,24 @@ async def help_command(_, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
+                InlineKeyboardButton(text="Help", callback_data="bot_commands"),
                 InlineKeyboardButton(
-                    text="Summon Me",
-                    url=f"http://t.me/{BOT_USERNAME}?startgroup=new",),
+                    text="News",
+                    url="t.me/RexomaNews",
+                ),
             ],
-                    
-            [
-                InlineKeyboardButton(
-                    text="Group", url="t.me/RexomaChat"),
-                InlineKeyboardButton(text="Channel", url="RexomaNews"),
-            ], 
-                    
             [
                 InlineKeyboardButton(
                     text="Bot Stats", callback_data="stats_callback"
                 ),
-                InlineKeyboardButton(text="Owner", url="t.me/RobotProject"),
+                InlineKeyboardButton(text="Group", url="t.me/RexomaChat"),
             ],
-                    
             [
                 InlineKeyboardButton(
-                    text="Help & Commands",
-                    callback_data="bot_comnands"),
-                ],
+                    text="Summon Me",
+                    url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
+                )
+            ],
         ]
     )
     await message.reply(

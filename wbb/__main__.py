@@ -122,8 +122,7 @@ async def help_command(_, message):
                 InlineKeyboardButton(
                     text="Help & Commands",
                     callback_data="bot_comnands"),
-                )
-            ],
+                ],
         ]
     )
     await message.reply(

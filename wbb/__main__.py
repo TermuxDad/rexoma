@@ -95,14 +95,14 @@ async def help_command(_, message):
                 ],
             ]
         )
-        await message.reply("Contact Me In Pm For More Details.", reply_markup=keyboard)
-        return
+        await message.reply("Contact Me In Pm For More Details.", reply_markup=keyboard),
+        return,
     keyboard = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
                     text="Summon Me",
-                    url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
+                    url=f"http://t.me/{BOT_USERNAME}?startgroup=new",),
             ],
                     
             [

@@ -108,8 +108,7 @@ async def help_command(_, message):
             [
                 InlineKeyboardButton(
                     text="Group", url="t.me/RexomaChat"),
-                ),
-                InlineKeyboardButton(text="Channel", url="RexomaNews"),
+                 InlineKeyboardButton(text="Channel", url="RexomaNews"),
             ], 
                     
             [

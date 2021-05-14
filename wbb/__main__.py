@@ -95,8 +95,8 @@ async def help_command(_, message):
                 ],
             ]
         )
-        await message.reply("Contact Me In Pm For More Details.", reply_markup=keyboard)
-        return
+        await message.reply("Contact Me In Pm For More Details.", reply_markup=keyboard),
+        return,
     keyboard = InlineKeyboardMarkup(
         [
             [

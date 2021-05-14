@@ -121,7 +121,7 @@ async def help_command(_, message):
         ]
     )
     await message.reply(
-        f"Hey! {first_name} My name is {BOT_NAME}. i am a group management bot build by weebs for weebs. i specialize in managing groups. You can find my list of available commands.",
+        f"Hey! My name is {BOT_NAME}. i am a group management bot build by weebs for weebs. i specialize in managing groups. You can find my list of available commands.",
         reply_markup=keyboard,
     )
 

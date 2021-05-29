@@ -121,7 +121,7 @@ async def help_command(_, message):
         ]
     )
     await message.reply(
-        f"Hey! My name is {BOT_NAME}. i am a group management bot build by weebs for weebs. i specialize in managing groups. You can find my list of available commands.",
+        f"Hey[!](https://telegra.ph/file/1d79a91dec5043a6c867a.jpg) This is {BOT_NAME}. A Revolutionary Telegram Group Management Bot With Advance Features Such As Vc Player, Music Group, Management Tools And Many More... For More Hit /help",
         reply_markup=keyboard,
     )
 

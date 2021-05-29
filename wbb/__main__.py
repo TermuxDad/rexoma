@@ -121,7 +121,7 @@ async def help_command(_, message):
         ]
     )
     await message.reply(
-        f"Hey[!](https://telegra.ph/file/1d79a91dec5043a6c867a.jpg) This is *{BOT_NAME}!!* A Revolutionary Telegram Group Management Bot With Advance Features Such As __Vc Player, Music Group, Management Tools__ And Many More... For More Hit /help",
+        f"Hey[!](https://telegra.ph/file/1d79a91dec5043a6c867a.jpg) This is **{BOT_NAME}!!** A Revolutionary Telegram Group Management Bot With Advance Features Such As __Vc Player, Music Group, Management Tools__ And Many More... For More Hit /help",
         reply_markup=keyboard,
     )
 

@@ -100,7 +100,7 @@ async def ban_globally(_, message):
         else:
             served_chats = await get_served_chats()
             m = await message.reply_text(
-                f"**Initializing WBB Global Ban Sequence To Add Restrictions On {user.mention}**"
+                f"**Initializing REXOMA Global Ban Sequence To Add Restrictions On {user.mention}**"
                 + f" **This Action Should Take About {len(served_chats)} Seconds.**"
             )
             await add_gban_user(user.id)
@@ -116,7 +116,7 @@ async def ban_globally(_, message):
                 await app.send_message(
                     user.id,
                     f"Hello, You have been globally banned by {from_user.mention},"
-                    + " You can appeal for this ban in @WBBSupport.",
+                    + " You can appeal for this ban in @RexomaChat.",
                 )
             except Exception:
                 pass
@@ -164,7 +164,7 @@ __**New Global Ban**__
         else:
             served_chats = await get_served_chats()
             m = await message.reply_text(
-                f"**Initializing WBB Global Ban Sequence To Add Restrictions On {mention}**"
+                f"**Initializing REXOMA Global Ban Sequence To Add Restrictions On {mention}**"
                 + f" **This Action Should Take About {len(served_chats)} Seconds.**"
             )
             number_of_chats = 0
@@ -181,7 +181,7 @@ __**New Global Ban**__
                     user_id,
                     f"""
 Hello, You have been globally banned by {from_user_mention},
-You can appeal for this ban in @WBBSupport.""",
+You can appeal for this ban in @RexomaChat.""",
                 )
             except Exception:
                 pass

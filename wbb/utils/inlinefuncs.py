@@ -128,7 +128,7 @@ async def alive_function(answers):
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/{USERBOT_USERNAME})
+**Profiles:** [BOT](https://telegra.ph/file/95d84c3eac3e0fb5ac960.jpg)
 """
     answers.append(
         InlineQueryResultArticle(

@@ -1,6 +1,6 @@
-__mod_name__ = "Vc Player"
+__MODULE__ = "Vc Player"
 
-__help__ = """
+__HELP__ = """
 *START UP*
 1 Make Bot Admin 
 2 Add @Rexoma_Music To Your Group

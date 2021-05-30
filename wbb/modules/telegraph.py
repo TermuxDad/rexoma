@@ -38,7 +38,7 @@ async def tgphoto(client, message):
         await msg.edit_text("Something went Wrong.")
     else:
         await msg.edit_text(
-            f"Successfully Uploaded to [Telegraph](https://telegra.ph{tlink[0]})"
+            f"**[Here Your Telegra.ph Link!](https://telegra.ph{tlink[0]})**"
         )
         os.remove(path)
 

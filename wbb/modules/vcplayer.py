@@ -1,7 +1,7 @@
 __MODULE__ = "Vc Player"
 
 __HELP__ = """
-*START UP*
+**START UP**
 1 Make Bot Admin 
 2 Add @Rexoma_Music To Your Group
 3 Start A Voice Chat And Give Commands

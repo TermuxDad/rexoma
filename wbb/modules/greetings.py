@@ -95,7 +95,7 @@ async def welcome(_, message: Message):
     """ Get cached answers from mongodb in case of bot's been restarted or crashed. """
     answers_dicc = await get_captcha_cache()
     """Mute new member and send message with button"""
-    if not await is_captcha_on(message.chat.id):
+    if not await is_captcha_off(message.chat.id):
         return
     for member in message.new_chat_members:
         try:
